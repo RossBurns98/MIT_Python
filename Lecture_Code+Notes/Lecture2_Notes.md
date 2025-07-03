@@ -131,7 +131,7 @@ Example:
 if <condition>:
     <code>
     <code>
-    . . .
+    
 <rest of program>
 
 - <condition> has a Boolean value.
@@ -142,11 +142,11 @@ Example:
 if <condition>:
     <code>
     <code>
-    . . .
+    
 else:
     <code>
     <code>
-    . . .
+    
 <rest of program>
 
 - Above code says: if <condition> is true, execute code in block then join rest of program, if <condition> is False, execute the else block then rejoin rest of program.
@@ -155,15 +155,15 @@ Example:
 if <condition>:
     <code>
     <code>
-    . . .
+    
 elif <condition>:
     <code>
     <code>
-    . . .
+    
 elif <condition>:
     <code>
     <code>
-    . . .
+    
 <rest of program>
 
 - The elif statement here pretty much keeps checking new conditions for True or False until True is met. If none are true then nothing is run.
@@ -172,15 +172,15 @@ Example:
 if <condition>:
     <code>
     <code>
-    . . .
+    
 elif <condition>:
     <code>
     <code>
-    . . .
+    
 else:
     <code>
     <code>
-    . . .
+    
 <rest of program>
 
 - By using the else statement at the end, catches the case where nothing is True such that something is still run.

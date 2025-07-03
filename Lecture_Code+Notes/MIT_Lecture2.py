@@ -10,13 +10,13 @@
 #print(s2)
 
 #Checking slice using negative
-#s = "abcdefgh"
-#s1 = s[4:1:-2]
-#print(s1)
+# s = "abcdefgh"
+# s1 = s[4:1:-2]
+# print(s1)
 
-#a = "ABC d3f ghi"
-#a1 = a[3:len(a)-1]
-#print(a1)
+a = "ABC d3f ghi"
+a1 = a[3:len(a)-1]
+print(a1)
 
 #a2 = a[4:0:-1]
 #print(a2)
