@@ -81,4 +81,29 @@ z = f(x) ~ *Makes new environment*
 ## Other example
 
 - Inside a function can access a variable outside a function.
-- However, it cannot alter this defined outside.
+- However, it cannot alter this defined outside. Results in an Error.
+
+## Higher Order Operations
+
+- Objects in Python have a type:
+    - int, bool, float, str, NoneType, function
+- Objects can be:
+    - Used as an argument to a procedure.
+    - Returned as a value from a procedure.
+- Functions are **First Class Objects**.
+- Treat them like the other types.
+    - They can be aruguments to another function.
+    - They can be returned by another function.
+
+# Summary
+
+- Functions are First class objects.
+    - They have a **Type**
+    - Can be **assigned as a value** bound to a name.
+    - Can be used as an **argument** to another procedure.
+    - Can be **returned** as a value from another procedure.
+
+- Be careful about environments:
+    - Main program runs in Global Environment.
+    - Calling a function makes a new temp environment for that function.
+- Enables creation of nice, concise and clean code.

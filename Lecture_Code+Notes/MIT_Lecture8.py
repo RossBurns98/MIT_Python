@@ -51,11 +51,31 @@ def count_nums_with_sqrt_close_to(n, epsilon):
 
 print(count_nums_with_sqrt_close_to(10, 0.1))
 
-def f(y):
-    x = 1
-    x += 1
-    print(x)
+# def f(y):
+#     x = 1
+#     x += 1
+#     print(x)
 
-x = 5
-f(x)
-print(x)
+# x = 5
+# f(x)
+# print(x)
+
+# Write a function that meets these specs in the docstring
+
+def apply(criteria,n):
+    """
+    * criteria is a function that takes in a number and returns a bool, 
+    * n is an int
+    Returns how many ints from 0 to n (inclusive) match the criteria
+    ie retur True when run with criteria
+    """
+    count = 0
+    for i in range(n + 1):
+        if criteria(i): # is a bool
+            count += 1
+    return count
+
+def is_even(x):
+    return x%2 == 0
+
+print(apply(is_even, 10))
