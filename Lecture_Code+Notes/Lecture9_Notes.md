@@ -99,6 +99,7 @@ L[2] + 1 - evaluates to 5
 i = 2
 L[i - 1] - goes to 'a' since L[1] is 'a'.
 max([3, 5, 0]) - goes to 5
+L[3] = 10 - Mutates L to [2,'a',4,10]
 
 # Iterating over a List (same for Tuples)
 
