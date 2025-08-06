@@ -86,3 +86,42 @@ grades = {'Ana':'B', 'Matt':'A', 'John':'B', 'Katy':'A'}
 # Why IMMUTABLE/HASHABLE
 
 - dictionary is stored in memory in a special way
+
+- step 1: Function run on dict key
+    - function maps any obj to an int
+    eg. map "a" to 1, "b" to 2 so ab could map to 3
+    - the in is the position in a block of memory addresses.
+- step 2: at the memory address, store the dict value
+- to do a lookup using a key, run same function
+    - if obj is immutable/hashable then you get same int back
+    - if changed then function gives different int back
+
+# Recap on List vs Dicts
+
+**List**
+- Ordered sequence of elements (index)
+- Look up elements by integer index
+- Indices have an order
+- Index = integer
+- Value can be any type
+
+**Dict**
+- Matches "keys" to values
+- Look up one item by another item
+- No guarenteed order
+- Key = anything immutable/hashable
+- value = anything
+
+# Example: Find most common words in a song's lyrics
+
+**Goal**
+1) Create Frequency Dict mapping str:int
+
+2) Find word that occurs most often and how many times
+    - Use a lost, in case more than one word with same number
+    - Return tuple(list, int) for (words_list, highest_freq)
+
+3) Find words that appear at least x amount of time
+    - Let user choose "at least X amount of times"
+    - return a list of tuples, each tuple us (list, int) containinf list of words ordered by frequency 
+ (see code file)

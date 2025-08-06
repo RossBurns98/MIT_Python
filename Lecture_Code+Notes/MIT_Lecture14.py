@@ -138,15 +138,15 @@ def occurs_often(word_dict, x):
 song = "Hey  I was doing just fine before I met you I drink too much and thats an issue but Im okay Hey  you tell your friends it was nice to meet them But I hope I never see them again I know it breaks your heart Moved to the city in a broke down car And four years  no calls Now youre looking pretty in a hotel bar And I cant stop No  I cant stop So baby pull me closer in the backseat of your Rover That I know you cant afford Bite that tattoo on your shoulder Pull the sheets right off the corner Of the mattress that you stole From your roommate back in Boulder We aint ever getting older We aint ever getting older We aint ever getting older You look as good as the day I met you I forget just why I left you  I was insane Stay and play that Blink 182 song That we beat to death in Tucson  okay I know it breaks your heart Moved to the city in a broke down car And four years  no call Now Im looking pretty in a hotel bar And I cant stop No  I cant stop So baby pull me closer in the backseat of your Rover That I know you cant afford Bite that tattoo on your shoulder Pull the sheets right off the corner Of the mattress that you stole From your roommate back in Boulder We aint ever getting older We aint ever getting older We aint ever getting older So baby pull me closer in the backseat of your Rover That I know you cant afford Bite that tattoo on your shoulder Pull the sheets right off the corner Of the mattress that you stole From your roommate back in Boulder We aint ever getting older We aint ever getting older we aint ever getting older We aint ever getting older we aint ever getting older We aint ever getting older we aint ever getting older We aint ever getting older We aint ever getting older No we aint ever getting older"
 
 song_dict = generate_word_dict(song)
-print("***** WORDS IN SONG *****")
-song_words = song.lower()
-print(song_words.split())
+# print("***** WORDS IN SONG *****")
+# song_words = song.lower()
+# print(song_words.split())
 
-print("***** WORD FREQUENCIES *****")
-print(song_dict)
+# print("***** WORD FREQUENCIES *****")
+# print(song_dict)
 
-print("***** MOST COMMON WORD *****")
-print(find_frequent_word(song_dict))
+# print("***** MOST COMMON WORD *****")
+# print(find_frequent_word(song_dict))
 
-print("***** TOP MOST COMMON WORDS *****")
-print(occurs_often(song_dict, 6))
+# print("***** TOP MOST COMMON WORDS *****")
+# print(occurs_often(song_dict, 6))
